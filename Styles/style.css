@@ -159,7 +159,7 @@
 .vision{
     margin-top: 80px;
 }
-.vision-header .section-description{
+.section-description{
     font-size: 16px;
     line-height: 24px;
     color:#0E0E0EB3;
@@ -216,4 +216,30 @@
 }
 .yellow-btn:hover{
     background:#e9ae26;
+}
+/* younus-section-style */
+.younus {
+    padding: 48px 24px;
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #0E0E0E26;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 2% 20%;
+    margin-top: 32px;
+}
+.younus .section-description{
+}
+.younus-name-description{
+    margin-top: 12px;
+}
+.younus-name-description h2{
+    color:#0E0E0ECC;
+    font-size: 20px;
+    line-height: 24px;
+    
+}
+.younus-name-description p{
+    line-height: 0;
+    margin-top: 12px
 }
