@@ -244,3 +244,59 @@
     line-height: 0;
     margin-top: 12px
 }
+/* opininio section style */
+.opinion{
+    margin-top: 80px;
+}
+.opinion-container{
+   background: #fff;
+   padding: 32px;
+   border-radius: 16px;
+   margin-top: 24px;
+}
+.opinion-caption{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    background: #C6E4D6;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+
+}
+.opinion-caption h3{
+    font-size: 20px; 
+    line-height: 24px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+.caption-left{}
+.caption-right{}
+
+.opinion-input{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    align-items: center;
+    display: flex;
+
+}
+.input-left {
+    width: 85%;
+    border-right: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 37px;
+}
+.input-right{
+    width: 15%;
+    padding: 24px;
+}
+.opinion-input h4{
+    font-size: 16px;
+    font-weight: 600;
+    color:#0E0E0E;
+}
+.opinion-input button{
+    padding: 10px 14px;
+    background: #C6E4D6;
+    font-weight: 500;
+    border: 1px solid #0E0E0E;
+    border-radius: 4px;
+    cursor: pointer;
+}
