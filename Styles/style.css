@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family */
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* universal-body-css */
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background: #F5F5F5;
+    font-family: "Fira Sans", serif;
+  }
+  /* shared-css */
+
+  .text-center{
+    text-align: center;
+  }
+  .text-right{
+    text-align: right;
+  }
+  .text-left{
+    text-align: left;
+  }
+  .container{
+    width: 1280px;
+    margin: 0 auto;
+  }
+
+  /* header-nav-css */
+  .header-area{}
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+  }
+  .navbar .nav-logo .nav-logo-title{
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .navbar .nav-btn .header-btn{
+    color:#006A50;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-family: "Fira Sans", serif;
+    border: 1px solid rgb(0, 106, 80);
+    cursor: pointer;
+    transition: .4s;
+  }
+  .navbar .nav-btn .header-btn:hover{
+    background:#006A50;
+    color: #fff;
+    
+  }
+/* banner-section-style */
+.banner{
+    background:#C6E4D6;
+    padding: 80px 70px;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 34px;
+}
+
+.banner-content .banner-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    color:#0E0E0E80;
+    line-height: 29px;
+}
+.banner-content .banner-title{
+    font-size: 56px;
+    line-height: 67px;
+    color:#0E0E0E;
+    margin-top: 16px;
+}
+.banner-left-content .banner-btn{
+    padding: 17px 34px;
+    background: #006A50;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-top: 24px;
+    cursor: pointer;
+    transition: .4s;
+}
+.banner-left-content .banner-btn:hover{
+    background:#C6E4D6;
+    color: #006A50;
+    border: 1px solid #006A50;
+}
+
+.banner-image{}
+.banner-image img{
+    width: 474px;
+}
+
+/* main-section-style-start */
+
+/* piller-section */
+.pillar{
+    margin-top: 80px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.pillar-container{
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}
+
+.pillars-card{
+    
+    background: #fff;
+    padding: 24px;
+    border: 1px solid #0E0E0E26;
+    border-radius: 16px;
+    transition: .4s;
+}
+.pillars-card:hover{
+    background:#C6E4D6;
+}
+.pillars-content img{}
+.pillars-card-inner-content{
+    margin-top: 24px;
+}
+.card-title{}
+.card-description{
+    font-size: 16px;
+    line-height: 24px;
+    color:#0E0E0EB3;
+    margin-top: 12px;
+    font-weight: 400;
+    
+}
