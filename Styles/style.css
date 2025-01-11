@@ -54,6 +54,7 @@
     border: 1px solid rgb(0, 106, 80);
     cursor: pointer;
     transition: .4s;
+    background:#fff;
   }
   .navbar .nav-btn .header-btn:hover{
     background:#006A50;
