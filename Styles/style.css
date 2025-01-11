@@ -405,9 +405,12 @@
     border: none;
     font-size: 20px;
     line-height: 24px;
-    color:#0E0E0E4D;
+    color:#0e0e0eae;
     border-bottom: 1px solid rgba(14, 14, 14, 0.15);
     margin-top: 32px;
+}
+.donate-form input::placeholder{
+    color: #0E0E0E4D;
 }
 .donate-btn{
     margin-top: 32px;
@@ -447,14 +450,16 @@
     width: 511px;
     padding: 18px 40px;
     border: none;
-    color: #0E0E0E4D;
     outline: none;
     margin-right: -4px;
     border-radius: 8px 0 0 8px;
     font-size: 16px;
     line-height: 19px;
-    color: #0E0E0E4D;
     font-family: "Fira Sans", serif;
+    color:#0e0e0eb1;
+}
+.subscribe-form form input::placeholder{
+    color: #0E0E0E4D;
 }
 .subscribe-form form .subscribe-btn {
     background: #006A50;
@@ -470,4 +475,30 @@
 }
 .sub-form-footer-title{
     margin-top: 24px;
+}
+/* footer-style */
+.footer-area{
+    padding: 50px 0;
+    background: #fff;
+    margin-top: 80px;
+}
+.footer-content{}
+.footer-content hr{
+    margin: 32px auto;
+    /* border-bottom: 1px solid rgba(14, 14, 14, 0.15); */
+    width: 1122px;
+    border:1px solid #f4f4f4;
+    
+    
+}
+.footer-title{}
+.footer-menu{}
+.footer-menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.footer-menu ul li{
+    list-style: none;
+    cursor: pointer;
 }
