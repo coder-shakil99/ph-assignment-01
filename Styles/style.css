@@ -99,6 +99,7 @@
     margin-top: 24px;
     cursor: pointer;
     transition: .4s;
+    font-family: "Fira Sans", serif;
 }
 .banner-left-content .banner-btn:hover{
     background:#C6E4D6;
@@ -199,6 +200,7 @@
     border-radius: 8px;
     cursor: pointer;
     transition: .4s;
+    font-family: "Fira Sans", serif;
 }
 .blue-btn{
     margin-top: 24px;
