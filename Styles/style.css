@@ -364,3 +364,110 @@
     border: 1px solid #006A50;
     color:#006A50;
 }
+/* donate-section -style */
+.donate{
+    margin-top: 80px;
+}
+.donate-taka-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 32px;
+}
+.donate-taka{
+    padding: 40px;
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    cursor: pointer;
+    transition: .4s;
+}
+.donate-taka h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0ECC;
+}
+.active-taka{
+    background:#C6E4D6;
+}
+.donate-taka:hover{
+    background:#C6E4D6;
+}
+.donate-form{}
+.donate-form input {
+    outline: none;
+    display: block;
+    width: 1032px;
+    padding: 20px 5px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+    font-size: 20px;
+    line-height: 24px;
+    color:#0E0E0E4D;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    margin-top: 32px;
+}
+.donate-btn{
+    margin-top: 32px;
+    background:#006A50;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Fira Sans", serif;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-top: 32px;
+    cursor: pointer;
+    transition: .4s;
+}
+.donate-btn:hover{
+    background:#C6E4D6;
+    border: 1px solid #006A50;
+    color:#006A50;
+}
+/* subscribe-section-style */
+.subscribe{
+    margin-top: 80px;
+    background:#C6E4D6;
+    border-radius: 24px;
+    padding: 80px 100px;
+}
+.subscribe-container{
+    width: 750px;
+    margin: 0 auto;
+}
+.subscribe-form{
+    margin-top: 24px;
+}
+.subscribe-form form{}
+.subscribe-form form input {
+    width: 511px;
+    padding: 18px 40px;
+    border: none;
+    color: #0E0E0E4D;
+    outline: none;
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0E0E0E4D;
+    font-family: "Fira Sans", serif;
+}
+.subscribe-form form .subscribe-btn {
+    background: #006A50;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Fira Sans", serif;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: .4s;
+}
+.sub-form-footer-title{
+    margin-top: 24px;
+}
