@@ -393,7 +393,7 @@
 .donate-taka:hover{
     background:#C6E4D6;
 }
-.donate-form{}
+
 .donate-form input {
     outline: none;
     display: block;
@@ -442,7 +442,7 @@
 .subscribe-form{
     margin-top: 24px;
 }
-.subscribe-form form{}
+
 .subscribe-form form input {
     width: 511px;
     padding: 18px 40px;
